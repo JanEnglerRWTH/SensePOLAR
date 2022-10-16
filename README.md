@@ -1,15 +1,20 @@
-# POLAR_C
-The first (semi-) supervised framework for augmenting interpretability into contextual word embeddings (BERT).
+# SensePOLAR
+The first (semi-) supervised framework for augmenting interpretability into contextual word embeddings (BERT).  
 Interpretability is added by rating words on scales that encode user-selected senses, like correctness or left-right-direction.
 
 ## Usage
-This first commit only contains the most basic functionalities of the POLAR_C framework.
-Any given word will be transformed into our interpretable Word Embedding space and the individual ratings on the scales can be analyzed.
-The scales, where the word is rated the highest (we call these the 'top POLAR_C dimensions'), are shown.
-These dimensions are usually the most descriptive dimensions for a word.
+This first commit only contains the most basic functionalities of the SensePOLAR framework.  
+Any given word will be transformed into our interpretable Word Embedding space and the individual ratings on the scales can be analyzed.  
+The scales, where the word is rated the highest (we call these the 'top SensePOLAR dimensions'), are shown.  
+These dimensions are usually the most descriptive dimensions for a word.  
 
-After installing the python packages below:
+After installing the python packages below:  
 Simply run 'python polarC.py' in the main folder and follow the instructions.
+
+
+## GLUE
+You can also evaluate the SensePOLAR Embeddings on the GLUE Benchmark.  
+See the corresponding README in the downstream_tasks/GLUE directory.
 
 ## Prerequisites
 ### Python packages
@@ -29,7 +34,7 @@ Simply run 'python polarC.py' in the main folder and follow the instructions.
 
 
 ## Literatur
-Static POLAR framework:
+Static POLAR framework:  
 Mathew, B., Sikdar, S., Lemmerich, F., & Strohmaier, M. (2020, April). The polar framework: Polar opposites enable interpretability of pre-trained word embeddings. In Proceedings of the Web Conference 2020 (pp. 1548-1558).
-BERT Model:
+BERT Model:  
 Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
