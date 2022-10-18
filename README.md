@@ -1,5 +1,5 @@
 # SensePOLAR
-> SensePOLAR: Word sense aware interpretability for pre-trained contextual word embeddings Jan Engler, Sandipan Sikdar, Marlene Lutz and Markus Strohmaier accepted at EMNLP'22 (finding)
+> SensePOLAR: Word sense aware interpretability for pre-trained contextual word embeddings Jan Engler, Sandipan Sikdar, Marlene Lutz and Markus Strohmaier accepted at EMNLP'22 (findings)
 
 The first (semi-) supervised framework for augmenting interpretability into contextual word embeddings (BERT).  
 Interpretability is added by rating words on scales that encode user-selected senses, like correctness or left-right-direction.
