@@ -1,6 +1,19 @@
 # SensePOLAR
+> SensePOLAR: Word sense aware interpretability for pre-trained contextual word embeddings Jan Engler, Sandipan Sikdar, Marlene Lutz and Markus Strohmaier accepted at EMNLP'22 (finding)
+
 The first (semi-) supervised framework for augmenting interpretability into contextual word embeddings (BERT).  
 Interpretability is added by rating words on scales that encode user-selected senses, like correctness or left-right-direction.
+
+***Please cite our paper in any published work that uses any of these resources.***
+~~~
+Coming soon
+~~~
+
+## Abstract
+Adding interpretability to word embeddings represents an area of active research in text representation. Recent work has explored the potential of embedding words via so-called polar dimensions (e.g. good vs. bad, correct vs.wrong). Examples of such recent approaches include SemAxis, POLAR, FrameAxis, and BiImp. Although these approaches provide interpretable dimensions for words, they have not been designed to deal with polysemy, i.e. they can not easily distinguish between different senses of words. To address this limitation, we present SensePOLAR, an extension of the original POLAR framework that enables word-sense aware interpretability for pre-trained contextual word embeddings. The resulting interpretable word embeddings achieve a level of performance that is comparable to original contextual word embeddings across a variety of natural language processing tasks including the GLUE and SQuAD benchmarks. Our work removes a fundamental limitation of existing
+approaches by offering users sense aware interpretations for contextual word embeddings.
+
+
 
 ## Usage
 This first commit only contains the most basic functionalities of the SensePOLAR framework.  
