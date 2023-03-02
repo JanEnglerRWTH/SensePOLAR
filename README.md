@@ -7,7 +7,14 @@ Interpretability is added by rating words on scales that encode user-selected se
 
 ***Please cite our paper in any published work that uses any of these resources.***
 ~~~
-Coming soon
+@inproceedings{engler-etal-2022-sensepolar,
+    title = "{S}ense{POLAR}: Word sense aware interpretability for pre-trained contextual word embeddings",
+    author = "Engler, Jan and Sikdar, Sandipan  and Lutz, Marlene  and Strohmaier, Markus",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    year = "2022",
+    publisher = "Association for Computational Linguistics",
+    pages = "4607--4619",
+}
 ~~~
 
 ## Abstract
